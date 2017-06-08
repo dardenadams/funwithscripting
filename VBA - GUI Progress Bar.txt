@@ -43,7 +43,7 @@ Function reformatData(srcTblName, dstTblName As String)
     'Increment progress bar with each iteration
     counter = counter + 1
     pct = counter / (totalRec / 100) 'Calculate current percentage completion
-    ProgressOne pct 'Pass to incrementation function
+    ProgressOnce pct 'Pass to incrementation function
     
     DoEvents 'Use DoEvents to prevent app from crashing
   Loop
@@ -51,7 +51,7 @@ Function reformatData(srcTblName, dstTblName As String)
 End Function
 
 
-Function ProgressOne(pctComplete As Single)
+Function ProgressOnce(pctComplete As Single)
   pctComplete = Round(pctComplete, 2) 'Clean up to 2 decimal places
 
   'Set the numerical percentage caption and the width using percentage from main function

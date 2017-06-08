@@ -1,6 +1,7 @@
 // Determines if all required fields have been filled in a SharePoint list form
 // - Easily scaleable method for testing any number of fields
 // - Calculates total of amounts at end
+// - Must run when user attempts to save new form
 
 window.calButton = function(){
     // Lists to hold all name and amount values, pulled direct

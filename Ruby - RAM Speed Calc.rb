@@ -1,4 +1,5 @@
 # For calculating in ns the real latency of RAM
+# Really justa  bit of math ...
 
 # Since 1GHz = 1 clock cycle per nanosecond, we can calculate ns per each clock cycle by dividing 1(ns) by entered GHz value
 puts 'Enter clock speed in GHz:'

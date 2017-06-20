@@ -2,7 +2,7 @@
 # In case you really need to kick someone out of the network quick
 
 Clear-Host
-"QUICK, CUT THE HARDLINES!"
+Write-Host "QUICK, CUT THE HARDLINES!"
 
 $reboot? = Read-Host "Do you wish to force a reboot or shutdown? ('no', 'reboot', 'shutdown')"
 $creds = "my-domain.local\MyFavAdminUser"
